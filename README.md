@@ -3,7 +3,7 @@ About kakoune-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kakoune-feedstock/blob/main/LICENSE.txt)
 
-Home: https://kakoune.org
+Home: https://kakoune.org/
 
 Package license: Unlicense
 
@@ -11,8 +11,9 @@ Summary: Selection-based modal text editor
 
 Development: https://github.com/mawww/Kakoune
 
-Kakoune is a selection-based modal text editor that implements Vi's "multiple selections" concept in a more intuitive and efficient way.
+Documentation: https://github.com/mawww/kakoune/blob/master/README.asciidoc
 
+Kakoune is a selection-based modal text editor that implements Vi's "multiple selections" concept in a more intuitive and efficient way.
 
 Current build status
 ====================
@@ -39,10 +40,31 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_aarch64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23403&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kakoune-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23403&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kakoune-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23403&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kakoune-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23403&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kakoune-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr>
