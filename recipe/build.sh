@@ -6,7 +6,7 @@ if [[ "${target_platform}" == "linux-"* ]]; then
     make install -j${CPU_COUNT} \
         debug=no \
         PREFIX=${PREFIX} \
-        CXX=$(command -v g++)
+        CXX=${CXX}
 
 elif [[ "${target_platform}" == "osx-"* ]]; then
     make install -j${CPU_COUNT} \
